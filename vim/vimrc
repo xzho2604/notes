@@ -40,7 +40,7 @@ Plugin 'calorie/vim-typing-sound'
 " Generic Programming Support 
 Plugin 'jakedouglas/exuberant-ctags'
 Plugin 'honza/vim-snippets'
-Plugin 'Townk/vim-autoclose'
+"Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tobyS/vmustache'
 Plugin 'janko-m/vim-test'
@@ -111,6 +111,9 @@ Plugin 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
 " Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+" vim-autopairs: highlight close tags
+Plugin 'jiangmiao/auto-pairs'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 """" END Vundle Configuration 
@@ -139,7 +142,7 @@ let g:elite_mode=1
 
 " Devicons configuration 
 let g:webdevicons_conceal_nerdtree_brackets = 1
-let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
+let g:WebDevIconsNerdTreeAfterGlyphPadding = '  '
 
 " Enable highlighting of the current line
 set cursorline
@@ -433,7 +436,13 @@ nnoremap <leader>. :CtrlPTag<cr>
 "set background to dark
 set background=dark
 
+" find tags folder all the way up untill find it
+set tags=tags;/
 
+"set neocomplete time out 0 s.t. one esc exit insert mode
+set timeoutlen=10 ttimeoutlen=0
 
+" swap caplock with esc within vim
+"imap <leader> <Esc>
 " ============================================================
 
