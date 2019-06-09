@@ -41,5 +41,19 @@ ctrl + shit + arrow: resize the window
 //https://www.jetbrains.com/help/clion/navigation-in-source-code.html
 ctrl + u: see the declaration of the method that current method override or impelement
 ctrl + b:see the declaration of the symmbol under current cursor
-ctrl + alt + b:(go to implementation )goes to the declaration of the symbol's type
-ctrl + shift + b:(type declaration) goes to the declaration of the symbol's type
+ctrl + opt + b:(go to implementation )goes to the declaration of the symbol's type
+ctrl + shift + b:(type declaration) the symbol being a variable or a method call. 
+ctrl + u:Navigate to a super method declaration of a method under the caret.
+
+ctrl + h:Browse hierarchy for the selected class class.
+shift + cmd + h:Browse hierarchy for the selected method
+opt + arrowup:previous method
+opt + arrowdown:next method
+opt + shift + up:previous occurance
+opt + shift + down:next occurance
+
+ctrl + alt + shift + n:navigate to symbol by name 
+ctrl + shift + n: navigate to file by name 
+ctrl + n: navigate to class by name 
+
+
