@@ -31,7 +31,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 ## Configure iterm2
-* [example config link](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961) </br>
+* [example config](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961) </br>
 * change color scheme: system preference -> profile -> color -> import -> colorscheme file </br>
-* [how to customise prompt link] (https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083)
+* [how to customise prompt ](https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083)
 
